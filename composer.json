@@ -1,6 +1,6 @@
 {
-  "name": "shortlist-digital/framework",
-  "description": "Herbert",
+  "name": "shortlist-digital/wp-plugin-framework",
+  "description": "Herbert Fork",
   "license": "MIT",
   "require": {
     "twig/twig": "~1.16",
