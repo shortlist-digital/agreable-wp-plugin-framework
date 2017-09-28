@@ -35,7 +35,7 @@ class TwigServiceProvider extends ServiceProvider {
             return [
                 'debug' => $this->app->environment() === 'local',
                 'charset' => 'utf-8',
-                'cache' => content_directory() . '/twig-cache',
+                'cache' => content_directory() . '/uploads/twig-cache',
                 'auto_reload' => true,
                 'strict_variables' => false,
                 'autoescape' => true,
